@@ -61,7 +61,7 @@ function News() {
       />
       </Container >
       <div style = {{padding : "30px", margin : "auto" , width : "100%", 
-        background : "red"}}>
+        background : ""}}>
         {articleData? fillMediaCards() : "Search Please !"}
       </div>
     </>
