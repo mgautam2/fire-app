@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+
+# Server
+  server: 
+    build: "./fire-app-backend"
+    environment:
+        SERVER_PORT: 4000
+    ports:
+        - 4000:4000
+    volumes:
+        - ./fire-app-backend/src:/srv/app/backend/src
+
+# Client
+
+  client:
+    build: "./fire-app-frontend"
+    environment:
+      CLIENT_PORT: 3000
+    ports:
+        - 3000:3000
+    volumes:
+      - ./fire-app-frontend/src:/srv/app/frontend/src
+    stdin_open: true

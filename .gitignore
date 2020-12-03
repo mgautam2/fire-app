@@ -1,7 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+.env
+node_modules
+db
+import
+plugins
+.DS_Store
 /.pnp
 .pnp.js
 
