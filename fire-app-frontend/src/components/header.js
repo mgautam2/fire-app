@@ -45,7 +45,9 @@ function Header () {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Fire App
+            <Link to = "/" >
+              Fire App
+            </Link  >
           </Typography>
         </Toolbar>
       </AppBar>
