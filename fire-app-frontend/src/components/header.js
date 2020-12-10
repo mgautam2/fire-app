@@ -85,12 +85,18 @@ function Header () {
                 <ListItemText primary={"Guidelines"} />
               </ListItem>
             </Link>
+            <Link to = "/incidents" >
+              <ListItem button key={3}>
+                <ListItemIcon> <MailIcon /></ListItemIcon>
+                <ListItemText primary={"Report Incidents"} />
+              </ListItem>
+            </Link>
         </List>
       </Drawer>
       </div>
   );
   
-  
+
 }
 
 

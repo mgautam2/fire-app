@@ -17,7 +17,7 @@ function SimpleMap ({data: eventData}) {
       if (ev.categories[0].id === 8) {
         let [lng, lat] = ev.geometries[0].coordinates
         return <LocationMarker lat = {lat}
-          lng = {lng} onClick = { () => setLocationInfo({id : ev.id , title : ev.title})}
+          lng = {lng} onClick = { () => setLocationInfo({ title : ev.title})}
         />
       }
     })

@@ -1,7 +1,7 @@
 
 import { Icon, InlineIcon } from '@iconify/react';
 
-import fireIcon from '@iconify/icons-mdi/fire-alert';
+import fireIcon from '@iconify/icons-mdi/fire';
 
 const LocationMarker = ({lat, long, onClick}) => {
   
